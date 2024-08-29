@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg : #141519;
+    --light:hsl(218, 22%, 23%);
+    --dark : #0d1218;
+    --orange:#fc7613;
+    --font:#7d838d;
+    --bag: linear-gradient(to bottom, #242d38 , #181f28);
+}
+input{
+    width: 32px;
+    height: 32px;
+}
+.b{
+    background: var(--bag);
+    max-width: 340px;
+}
